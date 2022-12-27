@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|left"
+        android:text="Exercises"
+        android:textAlignment="center"
+        android:textColor="#FBB427"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtDialogEquipment"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="Equipment"
+        android:textAlignment="center"
+        android:textColor="#FBB427"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imgDialogGym"
+        android:layout_width="wrap_content"
+        android:layout_height="366dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        app:srcCompat="@drawable/gym" />
+
+    <Button
+        android:id="@+id/btnDialogClose"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+
+        android:text="close" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Play Gesture Game" />
+
+</LinearLayout>
+
+
+
